@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snowman</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-content">
+            <div class="snowman">
+                <div class="hat"></div>
+                <div class="rim"></div>
+                <div class="head"></div>
+                <div class="body"></div>
+            </div>
+            <h1 class="title">Snowman</h1>
+        </div>
+    </div>
+    <div class="panel" id="question-panel">
+        <h3 class="question">What's your name?</h3>
+        <select class="choice" id="name-question">
+            <option value="none">-</option>
+        </select>
+        <a href="#" class="button" id="submit">Go!</a>
+    </div>
+    <div class="panel" id="display-panel">
+        <hgroup>
+            <h3 id="my-name">[Person]</h3>
+            <h3>, you're buying for </h3>
+            <h3 id="your-name">[Person]</h3>
+            <h3>.</h3>
+        </hgroup>
+    </div>
+    <a href="#" class="link" id="reset">Reset</a>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/home.js"></script>
+</html>

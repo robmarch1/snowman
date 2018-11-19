@@ -1,0 +1,7 @@
+**/node_modules
+**/.terraform
+**/*.tfstate*
+**/secret.auto.tfvars
+
+site/js/snowmap.json
+site/js/invitees.json

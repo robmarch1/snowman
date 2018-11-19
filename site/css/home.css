@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab:100,300,400,500,700");
+
+.snowman .hat {
+  background-color: #261514;
+  width: 3em;
+  height: 4em;
+  border-style: none none solid none;
+  border-color: #261514;
+  margin: 0 1.5em;
+  position: relative;
+  bottom: -0.5em;
+}
+
+.snowman .rim {
+  position: relative;
+  bottom: -0.5em;
+  width: 5em;
+  height: 0.2em;
+  margin: 0 0.5em;
+  background-color: #261514;
+}
+
+.snowman .head {
+  background-color: #f9fafc;
+  width: 4em;
+  height: 4em;
+  border-radius: 2em;
+  margin: 0 1em;
+}
+
+.snowman .body {
+  background-color: #f9fafc;
+  width: 6em;
+  height: 6em;
+  border-radius: 3em;
+  margin: 0.5em 0 0 0;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ce2621;
+  font-size: 0.5em;
+}
+
+@media only screen and (min-device-width: 600px) {
+  .nav-bar {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-device-width: 900px) {
+  .nav-bar {
+    font-size: 1em;
+  }
+}
+
+.nav-bar .nav-content {
+  margin: 0 auto;
+  width: 15em;
+}
+
+.nav-bar .snowman {
+  display: inline-block;
+  font-size: 0.3em;
+  vertical-align: bottom;
+  padding: 0 0 2em 0;
+}
+
+.nav-bar .title {
+  display: inline-block;
+  padding: 0 0 0 0.5em;
+}
+
+.panel {
+  font-size: 0.5em;
+  width: 16em;
+  padding: 1em;
+  background-color: #cdddf4;
+}
+
+@media only screen and (min-device-width: 600px) {
+  .panel {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-device-width: 900px) {
+  .panel {
+    font-size: 1em;
+  }
+}
+
+.panel .choice {
+  font-size: 1em;
+  display: block;
+  text-align: center;
+}
+
+.panel .choice option {
+  font-size: 0.5em;
+}
+
+.panel hgroup {
+  padding: 2em 0;
+}
+
+.panel hgroup h3 {
+  display: inline;
+}
+
+.button {
+  display: block;
+  padding: 0.5em;
+  margin: 1em 0;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0e8e68;
+  color: #f9fafc;
+  border-radius: 0.3em;
+  transition: background-color 0.3s 0s ease-in-out;
+}
+
+.button:hover, .button:focus, .button:active {
+  background-color: #12b786;
+}
+
+.link {
+  font-size: 0.5em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #0e8e68;
+  transition: color 0.3s 0s ease-in-out;
+}
+
+@media only screen and (min-device-width: 600px) {
+  .link {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-device-width: 900px) {
+  .link {
+    font-size: 1em;
+  }
+}
+
+.link:hover, .link:focus, .link:active {
+  color: #12b786;
+}
+
+html body {
+  font-size: 5em;
+  font-family: "Roboto", sans-serif;
+  background: #191a26;
+  color: #261514;
+}
+
+@media only screen and (min-device-width: 600px) {
+  html body {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-device-width: 900px) {
+  html body {
+    font-size: 2em;
+  }
+}
+
+html body h1 {
+  font-family: "Roboto Slab", serif;
+  color: #f9fafc;
+  font-size: 2em;
+}
+
+html body h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.85em;
+}
+
+html body h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.7em;
+}
+
+html body h4 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.55em;
+}
+
+html body h5 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.4em;
+}
+
+html body h6 {
+  font-family: "Roboto Slab", serif;
+  color: #f9fafc;
+  font-size: 1.25em;
+}
+
+html body p,
+html body span,
+html body div,
+html body label,
+html body li {
+  font-size: 1em;
+}
+
+.panel {
+  margin: 8em auto 0 auto;
+}

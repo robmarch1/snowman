@@ -1,0 +1,14 @@
+{
+  "name": "snowman2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "generator/index.js"
+  },
+  "author": "Rob",
+  "license": "ISC",
+  "dependencies": {
+    "require": "^2.4.20"
+  }
+}
